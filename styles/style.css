@@ -1,0 +1,197 @@
+/* global */
+* {
+  margin: 0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Tag selector */
+header {
+  background-color: rgb(20, 17, 34);
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+body {
+  background: rgb(20, 17, 34);
+}
+
+h1, h2, h3, h4 {
+  color: #9F2B68;
+  text-shadow: 2px 1px 2px rgb(50, 207, 255);
+  text-align: center;
+  margin: 3px;
+  letter-spacing: 5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* menu */
+nav {
+  background-color: rgb(20, 17, 34);
+  height: 5vh;
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+nav a {
+  color: #3b47f1;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 14px;
+  height: 100%;
+}
+
+nav a:hover {
+  font-weight: bolder;
+  font-size: 15px;
+  text-shadow: 1px 1px 3px rgb(138, 208, 255);
+  text-decoration: underline;
+}
+
+/* main */
+main {
+  padding: 20px;
+  margin-top: 20px;
+  background: rgba(28, 24, 48, 0.904)
+}
+
+main h4,h5 {
+  font-family: 'Press Start 2P', cursive;
+  color: #9F2B68;
+}
+
+aside {
+  background-color: rgba(119, 175, 192, 0.116);
+  padding: 20px;
+  background: rgba(28, 24, 48, 0.904)
+}
+
+ul li {
+  margin-left: 0;
+  color: #9F2B68;
+}
+ul li:hover {
+  text-shadow: 1px 1px 1px rgb(138, 208, 255);
+}
+
+ol li {
+  margin-left: 0;
+  color: #9F2B68;
+}
+
+ol li:hover {
+  text-shadow: 1px 1px 1px rgb(138, 208, 255);
+}
+
+.uppercase-text {
+  font-size: 14px;
+  color: rgb(31, 167, 31);
+  text-transform: uppercase;
+}
+
+.text-retro {
+  font-family: 'Press Start 2P', cursive;
+  color: #6B2D5F;
+  text-shadow: 1px 1px 1px rgb(21, 107, 133);
+  text-align: start;
+  font-size: 14px;
+}
+
+/* footer */
+.footer {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
+  color:#6B2D5F;
+  text-align: center;
+}
+
+/* -----Excercise */
+footer{
+  background-color: rgba(37, 32, 63, 0.904);
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 100px;
+  /* border: dotted 3px #6B2D5F; */
+}
+
+footer nav {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+footer nav a {
+  font-family:  Courier;
+  color: white;
+  margin: 0;
+  font-size: 20px
+}
+footer nav a:hover {
+  font-family:  Courier;
+  color: #9F2B68;
+  margin: 0;
+  font-size: 20px
+}
+
+footer p{
+  margin-top: 0px !important;
+  color: white;
+  text-align: center;
+}
+
+.aside-technologies {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 0 !important;
+  margin-left: 0 !important ;
+}
+
+.about-container {
+  color:white;
+}
+
+main h4{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+main{
+  border: dotted 3px #6B2D5F;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: solid 1px #6B2D5F; */
+  padding: 20px;
+  margin: 0 !important
+}
+
+.projects-container p {
+  color: #abafe6
+}
+
+.projects-container ul, h5, p{
+  margin: 0;
+  margin-left: 1px;
+}
+
+a i{
+  color: #4E5180 !important;
+  font-size: 25px;
+}
+
+main div b{
+  color: #9F2B68
+}
+
+div div div div p {
+  text-align: justify;
+}
